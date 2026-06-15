@@ -1,0 +1,118 @@
+body {
+    width: 100%;
+    overflow: hidden;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    height: 85vh;
+    margin: 0 150px;
+}
+h1 {
+    font-size: 65px;
+    position:relative;
+}
+.logo-area {
+    font-size: 570px;
+    position: absolute;
+    top: -70px;
+    left: 65%;
+}
+.number-login {
+    background-color:black;
+    color:white;
+    margin-bottom: 20px;
+    width: 315px;
+    text-decoration: none;
+}
+.number-login:active {
+    background-color: gray;
+}
+.google-login {
+    margin-bottom: 20px;
+    width: 315px;
+    text-decoration: none;
+    color: black;
+}
+.google-login:hover {
+    background-color: rgba(104, 185, 185, 0.566);
+}
+.google-login:active {
+    border: 2px solid rgba(73, 129, 129, 0.34);
+}
+.apple-login {
+    margin-bottom: 20px;
+    width: 315px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.login-area {
+    display: flex;
+    flex-direction: column;
+    
+}
+.btn {
+    border: 1px solid gray;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 30px;
+}
+.or {
+    display:flex;
+    align-items: center;
+    width: 370px;
+    margin-bottom: 20px;
+    color: gray;
+}
+.line {
+    flex: 1;
+    height: 0.5px;
+    background-color: gray;
+}
+.input-field {
+    padding: 20px 10px;
+    width: 340px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.continue {
+    font-size: 17px;
+    margin-top: 20px;
+    text-decoration: none;
+    width: 315px;
+    color: rgba(128, 128, 128, 1);
+    background-color: rgba(128, 128, 128, 0.142);
+}
+.terms {
+    color: gray;
+    font-size: 11px;
+    width: 370px;
+    text-align: center;
+    margin-top: 20px;
+}
+.terms a {
+    color: black;
+    text-decoration: none;
+}
+.footer-link {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-size: 11px;
+    gap: 10px;
+    margin-top: 60px;
+}
+.footer-link a {
+    text-decoration: none;
+}
+.footer-link a::after {
+    content: "|";
+    margin-left: 5px;
+}
+.copyright {
+    text-align: center;
+    font-size: 11px;
+}
